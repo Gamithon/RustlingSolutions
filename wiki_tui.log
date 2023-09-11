@@ -1,0 +1,14 @@
+2023-03-02T18:56:07.740195094-08:00 INFO wiki_tui::logging - successfully initialized the logging system
+2023-03-02T18:56:19.653465472-08:00 INFO wiki_tui::ui::search::display - displaying '10' search results
+2023-03-02T18:56:19.653522514-08:00 INFO wiki_tui::ui::search - selecting the item 'Scoville scale', page id: '43036'
+2023-03-02T18:56:19.653539703-08:00 INFO wiki_tui::ui::search - selecting the item 'Unit testing', page id: '222828'
+2023-03-02T18:56:22.947588238-08:00 INFO wiki_tui::ui::search - selecting the item 'Scoville scale', page id: '43036'
+2023-03-02T18:56:23.230681719-08:00 INFO wiki_tui::ui::search - selecting the item 'List of unit testing frameworks', page id: '2211977'
+2023-03-02T18:56:23.482546831-08:00 INFO wiki_tui::ui::search - selecting the item 'Scoville scale', page id: '43036'
+2023-03-02T18:56:23.671848108-08:00 INFO wiki_tui::ui::search - selecting the item 'Unit testing', page id: '222828'
+2023-03-02T18:56:24.737839776-08:00 INFO wiki_tui::ui::search - selecting the item 'Scoville scale', page id: '43036'
+2023-03-02T18:56:26.711494721-08:00 INFO wiki_tui::ui::search - selecting the item 'List of unit testing frameworks', page id: '2211977'
+2023-03-02T18:56:27.872454194-08:00 INFO wiki_tui::ui::search - selecting the item 'Scoville scale', page id: '43036'
+2023-03-02T18:56:46.431803284-08:00 INFO wiki_tui::ui::article::view - opening the link '19' with the target '/wiki/Capsaicin'
+2023-03-02T18:56:46.431889331-08:00 INFO wiki_tui::ui::article - requesting confirmation to open the link 'Capsaicin'
+2023-03-02T18:56:48.504873107-08:00 INFO wiki_tui::ui::article - opening the link 'Capsaicin'

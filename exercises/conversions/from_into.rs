@@ -3,6 +3,9 @@
 // You can read more about it at https://doc.rust-lang.org/std/convert/trait.From.html
 // Execute `rustlings hint from_into` or use the `hint` watch subcommand for a hint.
 
+use std::{convert::TryFrom, panic::catch_unwind};
+use std::convert::TryInto;
+
 #[derive(Debug)]
 struct Person {
     name: String,
@@ -35,10 +38,21 @@ impl Default for Person {
 // If while parsing the age, something goes wrong, then return the default of Person
 // Otherwise, then return an instantiated Person object with the results
 
-// I AM NOT DONE
-
 impl From<&str> for Person {
     fn from(s: &str) -> Person {
+        let mut split: Vec<&str> = s.split(',').collect();
+
+        if let Ok(num) = split.pop().unwrap().parse::<usize>() {
+            if let Some(str) = split.pop(){
+                if !str.is_empty(){
+                    return Person{
+                        name: str.to_string(),
+                        age: num,
+                    } 
+                }
+            }            
+        }
+        Person::default()  
     }
 }
 
